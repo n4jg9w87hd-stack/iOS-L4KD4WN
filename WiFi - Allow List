@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF+8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+ "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadDescription</key>
+      <string>Template: restricts the device to Wi-Fi networks supplied by this payload.</string>
+      <key>PayloadDisplayName</key>
+      <string>Approved Wi-Fi Template</string>
+      <key>PayloadIdentifier</key>
+      <string>com.iphone-lockdown.wifi.REPLACE-ME</string>
+      <key>PayloadType</key>
+      <string>com.apple.wifi.managed</string>
+      <key>PayloadUUID</key>
+      <string>REPLACE-WITH-UUID</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>SSID_STR</key>
+      <string>REPLACE-WITH-YOUR-SSID</string>
+      <key>HIDDEN_NETWORK</key>
+      <false/>
+      <key>EncryptionType</key>
+      <string>WPA2</string>
+    </dict>
+  </array>
+  <key>PayloadDisplayName</key>
+  <string>Approved Wi-Fi Template</string>
+  <key>PayloadIdentifier</key>
+  <string>com.iphone-lockdown.wifi-profile.REPLACE-ME</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>REPLACE-WITH-UUID</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+</dict>
+</plist>
